@@ -1,0 +1,46 @@
+* {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#ttc-board {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#btn-grid {
+  display: grid;
+  grid: 80px 80px 80px/80px 80px 80px;
+  gap: 10px;
+  max-width: 450px;
+  place-items: center;
+}
+
+.square {
+  height: 80px;
+  width: 80px;
+  border: 0.5px solid rgb(201, 201, 201);
+  background-color: transparent;
+  border-radius: 12px;
+}
+
+#reset {
+  height: 40px;
+  width: 160px;
+  border: 0.5px solid rgb(106, 239, 164);
+  border-radius: 6px;
+  color: #fff;
+  background-color: rgb(49, 185, 185);
+}
+
+#reset:hover {
+  background-color: rgb(50, 139, 139);
+}
